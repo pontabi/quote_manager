@@ -58,7 +58,7 @@ def create_w_for_new_work():
     e = Entry(sub_window)
     e.pack()
 
-    b_submit_new_title = Button(sub_window, text="追加", command=add_new_work)
+    b_submit_new_title = Button(sub_window, text="Add", command=add_new_work)
     b_submit_new_title.pack()
 
 
